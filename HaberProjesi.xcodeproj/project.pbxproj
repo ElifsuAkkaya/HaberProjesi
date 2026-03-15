@@ -6,30 +6,31 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F46752642F62CD5D0043BF14 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46752632F62CD5D0043BF14 /* News.swift */; };
+		F46752662F62D2FD0043BF14 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46752652F62D2FD0043BF14 /* WebService.swift */; };
+		F46752682F62DD7C0043BF14 /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46752672F62DD7C0043BF14 /* NewsViewModel.swift */; };
+		F46752692F63460D0043BF14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F467524F2F62CC510043BF14 /* AppDelegate.swift */; };
+		F467526A2F6346190043BF14 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46752572F62CC510043BF14 /* SceneDelegate.swift */; };
+		F467526B2F63461F0043BF14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46752582F62CC510043BF14 /* ViewController.swift */; };
+		F467526D2F6348540043BF14 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46752562F62CC510043BF14 /* NewsCell.swift */; };
+		F467526E2F6348E90043BF14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F46752552F62CC510043BF14 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		F467524F2F62CC510043BF14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F46752502F62CC510043BF14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F46752512F62CC510043BF14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F46752522F62CC510043BF14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F46752542F62CC510043BF14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F46752562F62CC510043BF14 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		F46752572F62CC510043BF14 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F46752582F62CC510043BF14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F46752632F62CD5D0043BF14 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		F46752652F62D2FD0043BF14 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		F46752672F62DD7C0043BF14 /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
 		F49B43EA2F61F95D009C265B /* HaberProjesi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaberProjesi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		F49B43FC2F61F95F009C265B /* Exceptions for "HaberProjesi" folder in "HaberProjesi" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = F49B43E92F61F95D009C265B /* HaberProjesi */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		F49B43EC2F61F95D009C265B /* HaberProjesi */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				F49B43FC2F61F95F009C265B /* Exceptions for "HaberProjesi" folder in "HaberProjesi" target */,
-			);
-			path = HaberProjesi;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F49B43E72F61F95D009C265B /* Frameworks */ = {
@@ -42,10 +43,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F46752592F62CC510043BF14 /* HaberProjesi */ = {
+			isa = PBXGroup;
+			children = (
+				F467525E2F62CCC10043BF14 /* Service */,
+				F467525C2F62CC8A0043BF14 /* Model */,
+				F467525B2F62CC720043BF14 /* ViewModel */,
+				F467524F2F62CC510043BF14 /* AppDelegate.swift */,
+				F46752502F62CC510043BF14 /* Assets.xcassets */,
+				F46752512F62CC510043BF14 /* Info.plist */,
+				F46752532F62CC510043BF14 /* LaunchScreen.storyboard */,
+				F46752552F62CC510043BF14 /* Main.storyboard */,
+				F46752572F62CC510043BF14 /* SceneDelegate.swift */,
+				F46752582F62CC510043BF14 /* ViewController.swift */,
+				F46752562F62CC510043BF14 /* NewsCell.swift */,
+			);
+			path = HaberProjesi;
+			sourceTree = "<group>";
+		};
+		F467525B2F62CC720043BF14 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F46752672F62DD7C0043BF14 /* NewsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F467525C2F62CC8A0043BF14 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F46752632F62CD5D0043BF14 /* News.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F467525E2F62CCC10043BF14 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F46752652F62D2FD0043BF14 /* WebService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		F49B43E12F61F95D009C265B = {
 			isa = PBXGroup;
 			children = (
-				F49B43EC2F61F95D009C265B /* HaberProjesi */,
+				F46752592F62CC510043BF14 /* HaberProjesi */,
 				F49B43EB2F61F95D009C265B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,9 +116,6 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				F49B43EC2F61F95D009C265B /* HaberProjesi */,
-			);
 			name = HaberProjesi;
 			packageProductDependencies = (
 			);
@@ -95,6 +135,7 @@
 				TargetAttributes = {
 					F49B43E92F61F95D009C265B = {
 						CreatedOnToolsVersion = 26.3;
+						LastSwiftMigration = 2630;
 					};
 				};
 			};
@@ -122,6 +163,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F467526E2F6348E90043BF14 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +174,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F467526B2F63461F0043BF14 /* ViewController.swift in Sources */,
+				F467526A2F6346190043BF14 /* SceneDelegate.swift in Sources */,
+				F46752692F63460D0043BF14 /* AppDelegate.swift in Sources */,
+				F467526D2F6348540043BF14 /* NewsCell.swift in Sources */,
+				F46752682F62DD7C0043BF14 /* NewsViewModel.swift in Sources */,
+				F46752662F62D2FD0043BF14 /* WebService.swift in Sources */,
+				F46752642F62CD5D0043BF14 /* News.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F46752532F62CC510043BF14 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F46752522F62CC510043BF14 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F46752552F62CC510043BF14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F46752542F62CC510043BF14 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F49B43FE2F61F95F009C265B /* Debug */ = {
@@ -143,6 +211,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -163,6 +232,8 @@
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -174,6 +245,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -194,6 +266,7 @@
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
